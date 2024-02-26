@@ -1,0 +1,94 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-image: url(./assets/images/image-omelette.jpeg);
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  color: rgb(80, 80, 80);
+  line-height: 18pt;
+  padding: 0px;
+  margin: 0px;
+}
+
+.outersection {
+  background-color: #f3e5d8de;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(45, 45, 45);
+  font-family: "Young Serif", serif;
+}
+h3 {
+  color: #794b38;
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  background-color: white;
+  width: 650px;
+  border-radius: 20px;
+  padding: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.preptime {
+  background-color: #fef6fc;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+li::marker {
+  color: #794b38;
+  margin-right: 30px;
+}
+li {
+  margin: 10px 0px;
+  padding-left: 15px;
+}
+
+table {
+  width: 100%;
+}
+
+hr {
+  background-color: rgba(128, 128, 128, 0.475);
+  margin: 40px 0px;
+}
+
+/* mobile view */
+@media (max-width: 712px) {
+  body {
+    margin: 0px;
+    border-radius: 0px;
+  }
+
+  h1 {
+    line-height: 30pt;
+  }
+  img {
+    border-radius: 0px;
+  }
+
+  .container {
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  .innersection {
+    padding: 30px;
+  }
+}
